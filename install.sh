@@ -1,5 +1,7 @@
 #!/bin/bash
 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 brew install xcode
 
 # vim
@@ -16,7 +18,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # node
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | bash
 nvm install 5.5
-npm install -g react-native-cli
+#npm install -g react-native-cli
 
 # java
 brew install jenv
