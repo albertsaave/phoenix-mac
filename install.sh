@@ -12,6 +12,8 @@ brew install coreutils
 brew install watch
 brew install tmux
 brew install ack
+brew install wget
+brew install the_silver_bullet
 
 # zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
